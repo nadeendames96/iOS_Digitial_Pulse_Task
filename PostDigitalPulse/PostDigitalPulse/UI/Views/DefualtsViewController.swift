@@ -14,7 +14,7 @@ class DefualtsViewController: UIViewController {
     }
     func presentAlertWithPop(withTitle title: String, message : String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: {_ in
+        alert.addAction(UIAlertAction(title: "ok".LC(), style: UIAlertAction.Style.default, handler: {_ in
             self.dismiss(animated: true)
         }))
         

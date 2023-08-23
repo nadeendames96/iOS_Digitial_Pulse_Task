@@ -9,7 +9,6 @@ import UIKit
 import KRProgressHUD
 extension PostDetailsViewController : UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("CoomentsCounr",self.postsViewModel.numberOfCommentsPost())
         return self.comentsFiltered.count ?? 0
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

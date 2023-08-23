@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import KRProgressHUD
 class SplashViewController: DefualtsViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,10 +15,10 @@ class SplashViewController: DefualtsViewController {
             self.perform(#selector(self.presentWithCustomAnimation), with: nil, afterDelay: 3)
     }
     @objc func presentWithCustomAnimation (){
-//        KRProgressHUD.show()
+        KRProgressHUD.show()
             let storyboard =  UIStoryboard(name:"Home", bundle: nil)
             let userlogin = storyboard.instantiateViewController(withIdentifier: "HomeTabBar") as! HomeTabBar
-//            KRProgressHUD.dismiss()
+            KRProgressHUD.dismiss()
             self.navigationController?.pushViewController(userlogin, animated: true)
     }
 }

@@ -9,7 +9,6 @@ import UIKit
 import KRProgressHUD
 extension HomePageViewController : UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("CountPosts",self.postsViewModel.numberOfPosts())
         return self.postsViewModel.numberOfPosts() ?? 0
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

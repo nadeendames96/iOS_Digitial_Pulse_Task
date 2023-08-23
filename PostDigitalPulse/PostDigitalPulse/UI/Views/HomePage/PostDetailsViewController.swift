@@ -56,7 +56,6 @@ class PostDetailsViewController: UIViewController {
     
     func getDataAuthor(){
         postsViewModel.fetchAllUsers {[weak self] in
-            print("Fetched....")
             self?.postsViewModel.users.forEach{userInfo in
                 if self?.userID == userInfo.id{
                     self?.lblAuthor.text = "name  \(userInfo.name ?? "")".LC()

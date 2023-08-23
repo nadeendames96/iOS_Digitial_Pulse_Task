@@ -29,8 +29,7 @@ class HomeTabBar: UITabBarController {
           tabBar.layer.cornerRadius = 5
           addcoustmeTabBarView()
           hideTabBarBorder()
-//     UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name:"Cairo-SemiBold", size: 14)!], for: .normal)
-        setText()
+            setText()
     }
     
 

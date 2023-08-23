@@ -16,6 +16,7 @@ class PostViewModel {
     private var isLoadingData = false
        private var hasMoreData = true
     func fetchPosts(completion: @escaping () -> Void) {
+        allPosts.removeAll()
         guard !isLoadingData && hasMoreData else {
                     return
                 }
@@ -42,6 +43,7 @@ class PostViewModel {
        }
     
     func loadNextBatch() {
+        posts.removeAll()
         KRProgressHUD.dismiss()
             let startIndex = currentPage * batchSize
             let endIndex = min(startIndex + batchSize, allPosts.count)
@@ -55,12 +57,12 @@ class PostViewModel {
  
     
     func fetchAllUsers(completion: @escaping () -> Void) {
+        users.removeAll()
           apiService.getAllUsers{ [weak self] result in
               switch result {
               case .success(let users):
                   DispatchQueue.main.async {
                       self?.users = users
-                      print("AllUsers: \(users)")
                       completion()
                   }
               case .failure(let error):
@@ -70,12 +72,12 @@ class PostViewModel {
       }
     
     func fetchCommentsPost(completion: @escaping () -> Void) {
+        comments.removeAll()
           apiService.fetchPostComments{ [weak self] result in
               switch result {
               case .success(let comments):
                   DispatchQueue.main.async {
                       self?.comments = comments
-                      print("AlComments: \(comments)")
                       completion()
                   }
               case .failure(let error):
