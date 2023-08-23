@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  PostDigitalPulse
+
+  Created by Nadeen Dames on 23/08/2023.
+  
+*/
+"latestPosts" = "آخر المشاركات";
+"postContent" = "المحتوى";
+"authorInfo" = "معلومات الكاتب";
+"postComments" = "تعليقا";
+"name" = "اسم :";
+"email" = "بريد إلكتروني :";
+"city" = "مدينة :";
+"website" = "موقع إلكتروني :";
+"phone" = "هاتف :";
+"company" = "شركة :";
+

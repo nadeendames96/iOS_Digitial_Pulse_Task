@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "103814AE-73B4-40A6-8FE9-B5CABBEBD452"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42DA8DFE-AA98-4664-A7D4-587E2FE3F848"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostDigitalPulse/UI/MVVM/PostsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchPosts(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42DA8DFE-AA98-4664-A7D4-587E2FE3F848 - 7966c1ca209eda58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostDigitalPulse.PostViewModel.fetchPosts(completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "PostDigitalPulse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nadeendames/Documents/Ios%20Application/iOS_Digitial_Pulse_Task/PostDigitalPulse/PostDigitalPulse/UI/MVVM/PostsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "42DA8DFE-AA98-4664-A7D4-587E2FE3F848 - 865d3fec0f325f6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;PostDigitalPulse.PostsModelElement&gt;, Swift.Error&gt;) -&gt; () in PostDigitalPulse.PostViewModel.fetchPosts(completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "PostDigitalPulse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nadeendames/Documents/Ios%20Application/iOS_Digitial_Pulse_Task/PostDigitalPulse/PostDigitalPulse/UI/MVVM/PostsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "42DA8DFE-AA98-4664-A7D4-587E2FE3F848 - 865d3fec0f325f6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;PostDigitalPulse.PostsModelElement&gt;, Swift.Error&gt;) -&gt; () in PostDigitalPulse.PostViewModel.fetchPosts(completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "PostDigitalPulse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nadeendames/Documents/Ios%20Application/iOS_Digitial_Pulse_Task/PostDigitalPulse/PostDigitalPulse/UI/MVVM/PostsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4102EC23-25F1-4DE7-B3E1-861C702A1C86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostDigitalPulse/SupportingFiles/ApiServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "fetchPosts(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4102EC23-25F1-4DE7-B3E1-861C702A1C86 - 917d5565b2eb46c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostDigitalPulse.APIService.fetchPosts(completion: (Swift.Result&lt;Swift.Array&lt;PostDigitalPulse.PostsModelElement&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PostDigitalPulse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nadeendames/Documents/Ios%20Application/iOS_Digitial_Pulse_Task/PostDigitalPulse/PostDigitalPulse/SupportingFiles/ApiServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "4102EC23-25F1-4DE7-B3E1-861C702A1C86 - 81d894c777b10e8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;PostDigitalPulse.PostsModelElement&gt;, Swift.Error&gt;) -&gt; () in PostDigitalPulse.APIService.fetchPosts(completion: (Swift.Result&lt;Swift.Array&lt;PostDigitalPulse.PostsModelElement&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PostDigitalPulse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nadeendames/Documents/Ios%20Application/iOS_Digitial_Pulse_Task/PostDigitalPulse/PostDigitalPulse/SupportingFiles/ApiServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "4102EC23-25F1-4DE7-B3E1-861C702A1C86 - 917d5565b2eb46a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostDigitalPulse.APIService.fetchPosts(completion: (Swift.Result&lt;Swift.Array&lt;PostDigitalPulse.PostsModelElement&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PostDigitalPulse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nadeendames/Documents/Ios%20Application/iOS_Digitial_Pulse_Task/PostDigitalPulse/PostDigitalPulse/SupportingFiles/ApiServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "4102EC23-25F1-4DE7-B3E1-861C702A1C86 - 81d894c777b10f68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;PostDigitalPulse.PostsModelElement&gt;, Swift.Error&gt;) -&gt; () in PostDigitalPulse.APIService.fetchPosts(completion: (Swift.Result&lt;Swift.Array&lt;PostDigitalPulse.PostsModelElement&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PostDigitalPulse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nadeendames/Documents/Ios%20Application/iOS_Digitial_Pulse_Task/PostDigitalPulse/PostDigitalPulse/SupportingFiles/ApiServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A749A6EF-132E-4A60-AB2D-7F316F634F74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostDigitalPulse/SupportingFiles/ApiServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "fetchPosts(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3854698-E01A-4604-80A9-B918532CE024"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostDigitalPulse/SupportingFiles/ApiServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "fetchPosts(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
