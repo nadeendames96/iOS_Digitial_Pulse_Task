@@ -43,7 +43,6 @@ class PostViewModel {
        }
     
     func loadNextBatch() {
-        posts.removeAll()
         KRProgressHUD.dismiss()
             let startIndex = currentPage * batchSize
             let endIndex = min(startIndex + batchSize, allPosts.count)
