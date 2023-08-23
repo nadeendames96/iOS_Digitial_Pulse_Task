@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Gi-FZ-iRL">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="EX9-7F-V3i">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" id="GeD-k8-YQ4" customClass="SplashViewController" customModule="PostDigitalPulse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h2y-8D-Bsd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digitalpulse" translatesAutoresizingMaskIntoConstraints="NO" id="Ua3-GT-NYG">
+                                <rect key="frame" x="87.666666666666686" y="323" width="218" height="206"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="218" id="5KP-cp-oN9"/>
+                                    <constraint firstAttribute="height" constant="206" id="FQh-Sw-TGy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DbG-2I-5vx"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ua3-GT-NYG" firstAttribute="centerY" secondItem="h2y-8D-Bsd" secondAttribute="centerY" id="4KR-6k-VwK"/>
+                            <constraint firstItem="Ua3-GT-NYG" firstAttribute="centerX" secondItem="h2y-8D-Bsd" secondAttribute="centerX" id="zqq-Sc-eo4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KG1-fO-ag5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YqN-p1-8Re" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-438" y="-531"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="se9-lB-olg">
+            <objects>
+                <navigationController storyboardIdentifier="SplashNavigation" automaticallyAdjustsScrollViewInsets="NO" id="2Gi-FZ-iRL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="d64-SE-1He">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4FB-fX-UrX">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="GeD-k8-YQ4" kind="relationship" relationship="rootViewController" id="Slu-BY-QJC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RcG-6z-PIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1091" y="-530"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="digitalpulse" width="200" height="200"/>
+    </resources>
+</document>
